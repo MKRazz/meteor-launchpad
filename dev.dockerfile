@@ -1,4 +1,4 @@
-FROM debian:bullseye
+FROM debian:stable
 MAINTAINER Jeremy Shimko <jeremy.shimko@gmail.com>
 
 RUN groupadd -r node && useradd -m -g node node
